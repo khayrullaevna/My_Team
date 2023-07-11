@@ -1,0 +1,124 @@
+.build{
+    background: #012F34;
+    height: 684px;
+    padding: 0 165px;
+
+    &__group{
+        display: flex;
+        justify-content: space-between;
+        align-items:first baseline;
+    }
+
+    &__line{
+        margin-top: -1px;
+        max-width: 50px;
+        height: 4px;
+        padding-top: 140px;
+        color:  #F67E7E;
+    }
+
+
+    &__title{
+        max-width: 445px;
+        color: #FFF;
+        font-family: "Livvic";
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+    }
+
+    &__list{
+        max-width: 540px;
+        height: 346px;
+    }
+
+    &__item{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__subtitle{
+        max-width: 445px;
+        flex-direction: column;
+        flex-shrink: 0;
+        color: #F67E7E;
+        font-family: "Livvic";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px;
+    }
+
+    &__text{
+        max-width: 445px;
+        color: #FFF;
+        font-family: "Livvic";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 25px;
+    }
+
+    li{
+        list-style: none;
+    }
+}
+
+
+@media only screen and (max-width: 920px){
+    .build{
+        max-width: 768px;
+        padding: 0 40px;
+        margin: 0 auto;
+        margin-top: -1px;
+        padding-bottom: 100px;
+
+        &__group{
+            flex-direction: column;
+            margin-bottom: 100px;
+        }
+    
+        &__line{
+            max-width: 445px;
+            padding: 100px 58px 0;
+        }
+    
+        &__title{
+            padding: 0 58px;
+            max-width: 445px;
+            font-size: 32px;
+            line-height: 32px;
+        }
+    
+        &__item{
+            gap: 25px;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 600px){
+    .build{
+        max-width: 375px;
+        padding: 0 24px;
+        padding-bottom: 500px;
+
+        &__group{
+            max-width: 327px;
+            justify-content: left;
+        }
+    
+        &__item{
+            flex-direction: column;
+            justify-content: left;
+            gap: 0px;
+        }
+
+        &__description{
+            text-align: center;
+            margin-bottom: 40px;
+        }
+    } 
+}

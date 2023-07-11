@@ -1,0 +1,115 @@
+.header{
+    margin: 0 auto;
+    // max-width: 1440px;
+    padding: 75px 165px;
+    background: #014E56;
+
+    &__content{
+        display: flex;
+        margin: 0;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__nav{
+        display: flex;
+        gap: 40px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__logo{
+        margin: 0;
+        margin-right: 80px;
+        width: 160px;
+        color: #FFF;
+        font-family: "Livvic";
+        font-size: 48px;
+    }
+
+    &__toggle{
+        display: none;
+    }
+
+    &__link{
+        margin-top: 10px;
+        color: #FFF;
+        font-family: "Livvic";
+        font-size: 18px;
+    }
+
+    &__link:hover{
+        color: #F67E7E;
+    }
+
+    &__button{
+        margin-top: -10px;
+        width: 153px;
+        height: 48px;
+        border-radius: 24px;
+        border: 2px solid #FFF;
+        color: white;
+        background-color: #014E56;
+        font-family: "Livvic";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px;
+    }
+
+    &__button:active{
+        background-color: white;
+        color: #002529;
+    }
+}
+
+@media only screen and (max-width: 920px){
+    .header{
+        max-width: 768px;
+        padding: 75px 40px;
+    
+        &__nav{
+            display: flex;
+            gap: 40px;
+            align-items: center;
+            justify-content: space-between;
+        }
+    
+        &__logo{
+            margin: 0;
+            margin-right: 48px;
+            width: 128px;
+            font-size: 40px;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .header{
+        margin: 0 auto;
+        padding: 48px 24px;
+        max-width: 375px;
+
+        &__nav{
+            max-width: 327px;
+        }
+    
+        &__logo{
+            margin: 0;
+            margin-right: 48px;
+        }
+
+        &__link{
+            display: none;
+        }
+
+        &__toggle{
+            display: flex;
+            margin-left: 90px;
+        }
+
+        &__btn{
+            display: none;
+        }
+    }
+}
