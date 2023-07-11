@@ -141,9 +141,11 @@
 
 @media only screen and (max-width: 600px){
     .footer{
-        margin: 0 auto;
+        // margin: 0 auto;
+        margin: 0;
         padding: 48px 24px;
         max-width: 375px;
+        // min-width: 375px;
 
         &__content{
             flex-direction: column;

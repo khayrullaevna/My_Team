@@ -6,8 +6,11 @@
 @import "./scss/footer";
 
 // @import "./scss/director;
+* {
+  margin: 0;
+}
 
-.container{
-    max-width: 1100px;
-    margin: 0 auto;
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
 }

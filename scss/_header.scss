@@ -86,9 +86,11 @@
 
 @media only screen and (max-width: 600px){
     .header{
-        margin: 0 auto;
+        margin: 0;
+        // margin: 0 auto;
         padding: 48px 24px;
         max-width: 375px;
+        // min-width: 375px;
 
         &__nav{
             max-width: 327px;

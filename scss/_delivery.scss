@@ -46,7 +46,7 @@
     }
 
     &__job{
-        margin-top: -15px;
+        // margin-top: -15px;
         max-width: 350px;
         color: #FFF;
         text-align: center;
@@ -118,7 +118,9 @@
 @media only screen and (max-width: 600px){
     .delivery{
         max-width: 375px;
+        // min-width: 375px;
         padding: 0 24px 160px;
+        margin: 0;
         
 
         &__title{

@@ -101,7 +101,10 @@
 
 @media only screen and (max-width: 600px){
     .build{
+        // margin: 0 auto;
         max-width: 375px;
+        // min-width: 375px;
+        margin: 0;
         padding: 0 24px;
         padding-bottom: 500px;
 
